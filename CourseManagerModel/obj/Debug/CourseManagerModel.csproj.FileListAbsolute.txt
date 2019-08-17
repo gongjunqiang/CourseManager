@@ -1,0 +1,17 @@
+C:\Users\GJQ\source\repos\CourseManager\CourseManagerModel\bin\Debug\CourseManagerModel.dll
+C:\Users\GJQ\source\repos\CourseManager\CourseManagerModel\bin\Debug\CourseManagerModel.pdb
+C:\Users\GJQ\source\repos\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.csproj.CoreCompileInputs.cache
+C:\Users\GJQ\source\repos\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.dll
+C:\Users\GJQ\source\repos\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.pdb
+C:\Users\GJQ\Desktop\CourseManager\CourseManagerModel\bin\Debug\CourseManagerModel.dll
+C:\Users\GJQ\Desktop\CourseManager\CourseManagerModel\bin\Debug\CourseManagerModel.pdb
+C:\Users\GJQ\Desktop\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.csproj.CoreCompileInputs.cache
+C:\Users\GJQ\Desktop\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.dll
+C:\Users\GJQ\Desktop\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.pdb
+C:\Users\GJQ\Desktop\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.csprojAssemblyReference.cache
+E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManagerModel\bin\Debug\CourseManagerModel.dll
+E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManagerModel\bin\Debug\CourseManagerModel.pdb
+E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.csprojAssemblyReference.cache
+E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.csproj.CoreCompileInputs.cache
+E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.dll
+E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManagerModel\obj\Debug\CourseManagerModel.pdb
