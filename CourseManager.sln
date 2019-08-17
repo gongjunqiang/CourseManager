@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseManagerDAL", "CourseM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseManagerBLL", "CourseManagerBLL\CourseManagerBLL.csproj", "{65D86076-AEB4-4BF9-94E7-7FC7BD975FA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUserContorls", "TestUserContorls\TestUserContorls.csproj", "{3B08A2AD-9623-4994-B5CD-37FBB9F92EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyControls", "MyControls\MyControls.csproj", "{A28618B7-1198-46DB-A6A4-68680EBA7C66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{65D86076-AEB4-4BF9-94E7-7FC7BD975FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65D86076-AEB4-4BF9-94E7-7FC7BD975FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65D86076-AEB4-4BF9-94E7-7FC7BD975FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B08A2AD-9623-4994-B5CD-37FBB9F92EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B08A2AD-9623-4994-B5CD-37FBB9F92EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B08A2AD-9623-4994-B5CD-37FBB9F92EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B08A2AD-9623-4994-B5CD-37FBB9F92EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28618B7-1198-46DB-A6A4-68680EBA7C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28618B7-1198-46DB-A6A4-68680EBA7C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28618B7-1198-46DB-A6A4-68680EBA7C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28618B7-1198-46DB-A6A4-68680EBA7C66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
