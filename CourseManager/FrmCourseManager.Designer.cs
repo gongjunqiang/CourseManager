@@ -41,12 +41,17 @@
             this.btnDeleteCourse = new CCWin.SkinControl.SkinButton();
             this.btnCloseCurrentWindow = new CCWin.SkinControl.SkinButton();
             this.skinLabel2 = new CCWin.SkinControl.SkinLabel();
-            this.cbbCategory = new CCWin.SkinControl.SkinComboBox();
             this.skinLabel3 = new CCWin.SkinControl.SkinLabel();
             this.btnQuery = new CCWin.SkinControl.SkinButton();
             this.skinLabel4 = new CCWin.SkinControl.SkinLabel();
             this.lblCount = new CCWin.SkinControl.SkinLabel();
             this.dgvCourseList = new CCWin.SkinControl.SkinDataGridView();
+            this.CourseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CourseId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ClassHour = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Credit = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CourseContent = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TeacherName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel_ModifyCourse = new CCWin.SkinControl.SkinPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.skinLabel10 = new CCWin.SkinControl.SkinLabel();
@@ -64,12 +69,7 @@
             this.btnCloseModify = new CCWin.SkinControl.SkinButton();
             this.btnSaveToDB = new CCWin.SkinControl.SkinButton();
             this.txtCourseaName = new CCWin.SkinControl.SkinTextBox();
-            this.CourseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CourseId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClassHour = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Credit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CourseContent = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TeacherName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cbbCategory = new MyControls.ComboxExtend(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCourseList)).BeginInit();
             this.panel_ModifyCourse.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -177,16 +177,6 @@
             this.skinLabel2.Size = new System.Drawing.Size(68, 17);
             this.skinLabel2.TabIndex = 1;
             this.skinLabel2.Text = "课程分类：";
-            // 
-            // cbbCategory
-            // 
-            this.cbbCategory.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbbCategory.FormattingEnabled = true;
-            this.cbbCategory.Location = new System.Drawing.Point(69, 61);
-            this.cbbCategory.Name = "cbbCategory";
-            this.cbbCategory.Size = new System.Drawing.Size(102, 22);
-            this.cbbCategory.TabIndex = 4;
-            this.cbbCategory.WaterText = "";
             // 
             // skinLabel3
             // 
@@ -301,6 +291,52 @@
             this.dgvCourseList.TitleBack = null;
             this.dgvCourseList.TitleBackColorBegin = System.Drawing.Color.White;
             this.dgvCourseList.TitleBackColorEnd = System.Drawing.Color.FromArgb(((int)(((byte)(83)))), ((int)(((byte)(196)))), ((int)(((byte)(242)))));
+            // 
+            // CourseName
+            // 
+            this.CourseName.DataPropertyName = "CourseName";
+            this.CourseName.HeaderText = "课程名称";
+            this.CourseName.Name = "CourseName";
+            this.CourseName.ReadOnly = true;
+            // 
+            // CourseId
+            // 
+            this.CourseId.DataPropertyName = "CourseId";
+            this.CourseId.HeaderText = "CourseId";
+            this.CourseId.Name = "CourseId";
+            this.CourseId.ReadOnly = true;
+            this.CourseId.Visible = false;
+            // 
+            // ClassHour
+            // 
+            this.ClassHour.DataPropertyName = "ClassHour";
+            this.ClassHour.HeaderText = " 课时";
+            this.ClassHour.Name = "ClassHour";
+            this.ClassHour.ReadOnly = true;
+            this.ClassHour.Width = 60;
+            // 
+            // Credit
+            // 
+            this.Credit.DataPropertyName = "Credit";
+            this.Credit.HeaderText = " 学分";
+            this.Credit.Name = "Credit";
+            this.Credit.ReadOnly = true;
+            this.Credit.Width = 60;
+            // 
+            // CourseContent
+            // 
+            this.CourseContent.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CourseContent.DataPropertyName = "CourseContent";
+            this.CourseContent.HeaderText = "内容概述";
+            this.CourseContent.Name = "CourseContent";
+            this.CourseContent.ReadOnly = true;
+            // 
+            // TeacherName
+            // 
+            this.TeacherName.DataPropertyName = "TeacherName";
+            this.TeacherName.HeaderText = "课程讲师";
+            this.TeacherName.Name = "TeacherName";
+            this.TeacherName.ReadOnly = true;
             // 
             // panel_ModifyCourse
             // 
@@ -680,51 +716,16 @@
             this.txtCourseaName.WaterText = "";
             this.txtCourseaName.WordWrap = true;
             // 
-            // CourseName
+            // cbbCategory
             // 
-            this.CourseName.DataPropertyName = "CourseName";
-            this.CourseName.HeaderText = "课程名称";
-            this.CourseName.Name = "CourseName";
-            this.CourseName.ReadOnly = true;
-            // 
-            // CourseId
-            // 
-            this.CourseId.DataPropertyName = "CourseId";
-            this.CourseId.HeaderText = "CourseId";
-            this.CourseId.Name = "CourseId";
-            this.CourseId.ReadOnly = true;
-            this.CourseId.Visible = false;
-            // 
-            // ClassHour
-            // 
-            this.ClassHour.DataPropertyName = "ClassHour";
-            this.ClassHour.HeaderText = " 课时";
-            this.ClassHour.Name = "ClassHour";
-            this.ClassHour.ReadOnly = true;
-            this.ClassHour.Width = 60;
-            // 
-            // Credit
-            // 
-            this.Credit.DataPropertyName = "Credit";
-            this.Credit.HeaderText = " 学分";
-            this.Credit.Name = "Credit";
-            this.Credit.ReadOnly = true;
-            this.Credit.Width = 60;
-            // 
-            // CourseContent
-            // 
-            this.CourseContent.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.CourseContent.DataPropertyName = "CourseContent";
-            this.CourseContent.HeaderText = "内容概述";
-            this.CourseContent.Name = "CourseContent";
-            this.CourseContent.ReadOnly = true;
-            // 
-            // TeacherName
-            // 
-            this.TeacherName.DataPropertyName = "TeacherName";
-            this.TeacherName.HeaderText = "课程讲师";
-            this.TeacherName.Name = "TeacherName";
-            this.TeacherName.ReadOnly = true;
+            this.cbbCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.cbbCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cbbCategory.FormattingEnabled = true;
+            this.cbbCategory.Location = new System.Drawing.Point(66, 60);
+            this.cbbCategory.Name = "cbbCategory";
+            this.cbbCategory.Size = new System.Drawing.Size(121, 20);
+            this.cbbCategory.TabIndex = 8;
             // 
             // FrmCourseManager
             // 
@@ -732,10 +733,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(680, 470);
+            this.Controls.Add(this.cbbCategory);
             this.Controls.Add(this.panel_ModifyCourse);
             this.Controls.Add(this.txtCourseaName);
             this.Controls.Add(this.dgvCourseList);
-            this.Controls.Add(this.cbbCategory);
             this.Controls.Add(this.btnCloseCurrentWindow);
             this.Controls.Add(this.btnDeleteCourse);
             this.Controls.Add(this.btnModifyCourse);
@@ -771,7 +772,6 @@
         private CCWin.SkinControl.SkinButton btnDeleteCourse;
         private CCWin.SkinControl.SkinButton btnCloseCurrentWindow;
         private CCWin.SkinControl.SkinLabel skinLabel2;
-        private CCWin.SkinControl.SkinComboBox cbbCategory;
         private CCWin.SkinControl.SkinLabel skinLabel3;
         private CCWin.SkinControl.SkinButton btnQuery;
         private CCWin.SkinControl.SkinLabel skinLabel4;
@@ -800,5 +800,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Credit;
         private System.Windows.Forms.DataGridViewTextBoxColumn CourseContent;
         private System.Windows.Forms.DataGridViewTextBoxColumn TeacherName;
+        private MyControls.ComboxExtend cbbCategory;
     }
 }

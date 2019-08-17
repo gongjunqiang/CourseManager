@@ -53,6 +53,12 @@ namespace CourseManager
 
         private void BtnQuery_Click(object sender, EventArgs e)
         {
+            var a = this.cbbCategory.BeginCheckEmpty();
+            if (a == 0)
+            {
+                return;
+            }
+
             if ((this.cbbCategory.SelectedIndex == -1 || this.cbbCategory.SelectedIndex == 0)
                  && this.txtCourseaName.Text.Trim().Length == 0)
             {
