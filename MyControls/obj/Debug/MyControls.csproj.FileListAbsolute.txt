@@ -1,0 +1,9 @@
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\bin\Debug\MyControls.dll
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\bin\Debug\MyControls.pdb
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\obj\Debug\MyControls.TxtBoxExt.resources
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\obj\Debug\MyControls.csproj.GenerateResource.cache
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\obj\Debug\MyControls.csproj.CoreCompileInputs.cache
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\obj\Debug\MyControls.dll
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\obj\Debug\MyControls.pdb
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\obj\Debug\MyControls.ComboxExtend.resources
+E:\C#录播课程视频\C#\common\CourseManager\MyControls\obj\Debug\MyControls.VerticalProcessBar.resources

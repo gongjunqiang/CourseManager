@@ -1,0 +1,13 @@
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\bin\Debug\TestUserContorls.exe.config
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\bin\Debug\TestUserContorls.exe
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\bin\Debug\TestUserContorls.pdb
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.csprojAssemblyReference.cache
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.Properties.Resources.resources
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.csproj.GenerateResource.cache
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.csproj.CoreCompileInputs.cache
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.exe
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.pdb
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\bin\Debug\MyControls.dll
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\bin\Debug\MyControls.pdb
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.Form1.resources
+E:\C#录播课程视频\C#\common\CourseManager\TestUserContorls\obj\Debug\TestUserContorls.csproj.CopyComplete

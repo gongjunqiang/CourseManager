@@ -1,0 +1,5 @@
+E:\C#录播课程视频\C#\common\CourseManager\Regex\bin\Debug\Regex.dll
+E:\C#录播课程视频\C#\common\CourseManager\Regex\bin\Debug\Regex.pdb
+E:\C#录播课程视频\C#\common\CourseManager\Regex\obj\Debug\Regex.csproj.CoreCompileInputs.cache
+E:\C#录播课程视频\C#\common\CourseManager\Regex\obj\Debug\Regex.dll
+E:\C#录播课程视频\C#\common\CourseManager\Regex\obj\Debug\Regex.pdb
