@@ -132,6 +132,10 @@
       <Project>{5e91cfa5-7b1f-415b-b763-dafeea71e549}</Project>
       <Name>CourseManagerModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyControls\MyControls.csproj">
+      <Project>{A28618B7-1198-46DB-A6A4-68680EBA7C66}</Project>
+      <Name>MyControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

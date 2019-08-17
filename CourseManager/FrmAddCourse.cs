@@ -37,44 +37,60 @@ namespace CourseManager
         //添加课程
         private void BtnSaveToDB_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(this.txtCourseName.Text.Trim()))
+            int a1 = this.txtCourseName.BeginCheckEmpty();
+            int a2 = this.txtClassHour.BeginValidatePostive("课时总数必须是大于0的正整数！");
+            int a3 = this.txtCredit.BeginValidateRange("学分必须在1-30之间", 1, 30);
+
+            int result1 = a1 * a2 * a3;
+            if (result1 == 1)
             {
-                MessageBox.Show("课程名称不能为空！", "提示信息");
-                this.txtCourseName.Focus();
+                //提交到数据库
+            }
+            else
+            {
                 return;
             }
 
-            if (string.IsNullOrEmpty(this.txtClassHour.Text.Trim()))
-            {
-                MessageBox.Show("课时不能为空！", "提示信息");
-                this.txtClassHour.Focus();
-                return;
-            }
+
+
+            //if (string.IsNullOrEmpty(this.txtCourseName.Text.Trim()))
+            //{
+            //    MessageBox.Show("课程名称不能为空！", "提示信息");
+            //    this.txtCourseName.Focus();
+            //    return;
+            //}
+
+            //if (string.IsNullOrEmpty(this.txtClassHour.Text.Trim()))
+            //{
+            //    MessageBox.Show("课时不能为空！", "提示信息");
+            //    this.txtClassHour.Focus();
+            //    return;
+            //}
 
             var txtCredit = this.txtCredit.Text.Trim();
-            if (string.IsNullOrEmpty(txtCredit))
-            {
-                MessageBox.Show("学分不能为空！", "提示信息");
-                this.txtCredit.Focus();
-                return;
-            }
+            //if (string.IsNullOrEmpty(txtCredit))
+            //{
+            //    MessageBox.Show("学分不能为空！", "提示信息");
+            //    this.txtCredit.Focus();
+            //    return;
+            //}
 
-            try
-            {
-                var credit = int.Parse(txtCredit);
-            }
-            catch (Exception )
-            {
-                MessageBox.Show("学分只能为整数！", "提示信息");
-                return;
-            }
+            //try
+            //{
+            //    var credit = int.Parse(txtCredit);
+            //}
+            //catch (Exception )
+            //{
+            //    MessageBox.Show("学分只能为整数！", "提示信息");
+            //    return;
+            //}
 
-            if (string.IsNullOrEmpty(this.txtCourseContent.Text.Trim()))
-            {
-                MessageBox.Show("课程内容不能为空！", "提示信息");
-                this.txtCourseContent.Focus();
-                return;
-            }
+            //if (string.IsNullOrEmpty(this.txtCourseContent.Text.Trim()))
+            //{
+            //    MessageBox.Show("课程内容不能为空！", "提示信息");
+            //    this.txtCourseContent.Focus();
+            //    return;
+            //}
 
             Course course = new Course
             {

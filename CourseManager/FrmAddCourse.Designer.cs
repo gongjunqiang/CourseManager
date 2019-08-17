@@ -45,11 +45,8 @@
             this.skinLabel12 = new CCWin.SkinControl.SkinLabel();
             this.cbbCategory = new CCWin.SkinControl.SkinComboBox();
             this.skinLabel11 = new CCWin.SkinControl.SkinLabel();
-            this.txtCredit = new CCWin.SkinControl.SkinTextBox();
             this.skinLabel9 = new CCWin.SkinControl.SkinLabel();
-            this.txtClassHour = new CCWin.SkinControl.SkinTextBox();
             this.skinLabel8 = new CCWin.SkinControl.SkinLabel();
-            this.txtCourseName = new CCWin.SkinControl.SkinTextBox();
             this.ckbAutoClear = new CCWin.SkinControl.SkinCheckBox();
             this.dgvCourseList = new System.Windows.Forms.DataGridView();
             this.CourseName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -59,6 +56,9 @@
             this.CategoryName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblCount = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtCourseName = new MyControls.TxtBoxExt(this.components);
+            this.txtClassHour = new MyControls.TxtBoxExt(this.components);
+            this.txtCredit = new MyControls.TxtBoxExt(this.components);
             this.groupBoxCourseInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCourseList)).BeginInit();
             this.SuspendLayout();
@@ -122,16 +122,16 @@
             // 
             // groupBoxCourseInfo
             // 
+            this.groupBoxCourseInfo.Controls.Add(this.txtCredit);
+            this.groupBoxCourseInfo.Controls.Add(this.txtClassHour);
+            this.groupBoxCourseInfo.Controls.Add(this.txtCourseName);
             this.groupBoxCourseInfo.Controls.Add(this.skinLabel10);
             this.groupBoxCourseInfo.Controls.Add(this.txtCourseContent);
             this.groupBoxCourseInfo.Controls.Add(this.skinLabel12);
             this.groupBoxCourseInfo.Controls.Add(this.cbbCategory);
             this.groupBoxCourseInfo.Controls.Add(this.skinLabel11);
-            this.groupBoxCourseInfo.Controls.Add(this.txtCredit);
             this.groupBoxCourseInfo.Controls.Add(this.skinLabel9);
-            this.groupBoxCourseInfo.Controls.Add(this.txtClassHour);
             this.groupBoxCourseInfo.Controls.Add(this.skinLabel8);
-            this.groupBoxCourseInfo.Controls.Add(this.txtCourseName);
             this.groupBoxCourseInfo.Location = new System.Drawing.Point(13, 57);
             this.groupBoxCourseInfo.Name = "groupBoxCourseInfo";
             this.groupBoxCourseInfo.Size = new System.Drawing.Size(655, 117);
@@ -230,51 +230,6 @@
             this.skinLabel11.TabIndex = 1;
             this.skinLabel11.Text = "课程学分：";
             // 
-            // txtCredit
-            // 
-            this.txtCredit.BackColor = System.Drawing.Color.Transparent;
-            this.txtCredit.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCredit.DownBack = null;
-            this.txtCredit.Icon = null;
-            this.txtCredit.IconIsButton = false;
-            this.txtCredit.IconMouseState = CCWin.SkinClass.ControlState.Normal;
-            this.txtCredit.IsPasswordChat = '\0';
-            this.txtCredit.IsSystemPasswordChar = false;
-            this.txtCredit.Lines = new string[] {
-        "20"};
-            this.txtCredit.Location = new System.Drawing.Point(513, 31);
-            this.txtCredit.Margin = new System.Windows.Forms.Padding(0);
-            this.txtCredit.MaxLength = 32767;
-            this.txtCredit.MinimumSize = new System.Drawing.Size(28, 25);
-            this.txtCredit.MouseBack = null;
-            this.txtCredit.MouseState = CCWin.SkinClass.ControlState.Normal;
-            this.txtCredit.Multiline = false;
-            this.txtCredit.Name = "txtCredit";
-            this.txtCredit.NormlBack = null;
-            this.txtCredit.Padding = new System.Windows.Forms.Padding(5);
-            this.txtCredit.ReadOnly = false;
-            this.txtCredit.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtCredit.Size = new System.Drawing.Size(122, 25);
-            // 
-            // 
-            // 
-            this.txtCredit.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCredit.SkinTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtCredit.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
-            this.txtCredit.SkinTxt.Location = new System.Drawing.Point(5, 5);
-            this.txtCredit.SkinTxt.Name = "BaseText";
-            this.txtCredit.SkinTxt.Size = new System.Drawing.Size(110, 18);
-            this.txtCredit.SkinTxt.TabIndex = 0;
-            this.txtCredit.SkinTxt.Text = "20";
-            this.txtCredit.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.txtCredit.SkinTxt.WaterText = "";
-            this.txtCredit.TabIndex = 5;
-            this.txtCredit.Text = "20";
-            this.txtCredit.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtCredit.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.txtCredit.WaterText = "";
-            this.txtCredit.WordWrap = true;
-            // 
             // skinLabel9
             // 
             this.skinLabel9.AutoSize = true;
@@ -287,51 +242,6 @@
             this.skinLabel9.TabIndex = 1;
             this.skinLabel9.Text = "课时总数：";
             // 
-            // txtClassHour
-            // 
-            this.txtClassHour.BackColor = System.Drawing.Color.Transparent;
-            this.txtClassHour.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtClassHour.DownBack = null;
-            this.txtClassHour.Icon = null;
-            this.txtClassHour.IconIsButton = false;
-            this.txtClassHour.IconMouseState = CCWin.SkinClass.ControlState.Normal;
-            this.txtClassHour.IsPasswordChat = '\0';
-            this.txtClassHour.IsSystemPasswordChar = false;
-            this.txtClassHour.Lines = new string[] {
-        "500"};
-            this.txtClassHour.Location = new System.Drawing.Point(361, 31);
-            this.txtClassHour.Margin = new System.Windows.Forms.Padding(0);
-            this.txtClassHour.MaxLength = 32767;
-            this.txtClassHour.MinimumSize = new System.Drawing.Size(28, 25);
-            this.txtClassHour.MouseBack = null;
-            this.txtClassHour.MouseState = CCWin.SkinClass.ControlState.Normal;
-            this.txtClassHour.Multiline = false;
-            this.txtClassHour.Name = "txtClassHour";
-            this.txtClassHour.NormlBack = null;
-            this.txtClassHour.Padding = new System.Windows.Forms.Padding(5);
-            this.txtClassHour.ReadOnly = false;
-            this.txtClassHour.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtClassHour.Size = new System.Drawing.Size(77, 25);
-            // 
-            // 
-            // 
-            this.txtClassHour.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtClassHour.SkinTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtClassHour.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
-            this.txtClassHour.SkinTxt.Location = new System.Drawing.Point(5, 5);
-            this.txtClassHour.SkinTxt.Name = "BaseText";
-            this.txtClassHour.SkinTxt.Size = new System.Drawing.Size(65, 18);
-            this.txtClassHour.SkinTxt.TabIndex = 0;
-            this.txtClassHour.SkinTxt.Text = "500";
-            this.txtClassHour.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.txtClassHour.SkinTxt.WaterText = "";
-            this.txtClassHour.TabIndex = 5;
-            this.txtClassHour.Text = "500";
-            this.txtClassHour.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtClassHour.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.txtClassHour.WaterText = "";
-            this.txtClassHour.WordWrap = true;
-            // 
             // skinLabel8
             // 
             this.skinLabel8.AutoSize = true;
@@ -343,51 +253,6 @@
             this.skinLabel8.Size = new System.Drawing.Size(68, 17);
             this.skinLabel8.TabIndex = 1;
             this.skinLabel8.Text = "课程名称：";
-            // 
-            // txtCourseName
-            // 
-            this.txtCourseName.BackColor = System.Drawing.Color.Transparent;
-            this.txtCourseName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCourseName.DownBack = null;
-            this.txtCourseName.Icon = null;
-            this.txtCourseName.IconIsButton = false;
-            this.txtCourseName.IconMouseState = CCWin.SkinClass.ControlState.Normal;
-            this.txtCourseName.IsPasswordChat = '\0';
-            this.txtCourseName.IsSystemPasswordChar = false;
-            this.txtCourseName.Lines = new string[] {
-        ".Net/C#上位机开发VIP课程06"};
-            this.txtCourseName.Location = new System.Drawing.Point(74, 31);
-            this.txtCourseName.Margin = new System.Windows.Forms.Padding(0);
-            this.txtCourseName.MaxLength = 32767;
-            this.txtCourseName.MinimumSize = new System.Drawing.Size(28, 25);
-            this.txtCourseName.MouseBack = null;
-            this.txtCourseName.MouseState = CCWin.SkinClass.ControlState.Normal;
-            this.txtCourseName.Multiline = false;
-            this.txtCourseName.Name = "txtCourseName";
-            this.txtCourseName.NormlBack = null;
-            this.txtCourseName.Padding = new System.Windows.Forms.Padding(5);
-            this.txtCourseName.ReadOnly = false;
-            this.txtCourseName.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtCourseName.Size = new System.Drawing.Size(207, 25);
-            // 
-            // 
-            // 
-            this.txtCourseName.SkinTxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCourseName.SkinTxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtCourseName.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
-            this.txtCourseName.SkinTxt.Location = new System.Drawing.Point(5, 5);
-            this.txtCourseName.SkinTxt.Name = "BaseText";
-            this.txtCourseName.SkinTxt.Size = new System.Drawing.Size(195, 18);
-            this.txtCourseName.SkinTxt.TabIndex = 0;
-            this.txtCourseName.SkinTxt.Text = ".Net/C#上位机开发VIP课程06";
-            this.txtCourseName.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.txtCourseName.SkinTxt.WaterText = "";
-            this.txtCourseName.TabIndex = 5;
-            this.txtCourseName.Text = ".Net/C#上位机开发VIP课程06";
-            this.txtCourseName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtCourseName.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.txtCourseName.WaterText = "";
-            this.txtCourseName.WordWrap = true;
             // 
             // ckbAutoClear
             // 
@@ -516,6 +381,27 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "已添加课程总数：";
             // 
+            // txtCourseName
+            // 
+            this.txtCourseName.Location = new System.Drawing.Point(81, 35);
+            this.txtCourseName.Name = "txtCourseName";
+            this.txtCourseName.Size = new System.Drawing.Size(206, 21);
+            this.txtCourseName.TabIndex = 6;
+            // 
+            // txtClassHour
+            // 
+            this.txtClassHour.Location = new System.Drawing.Point(355, 35);
+            this.txtClassHour.Name = "txtClassHour";
+            this.txtClassHour.Size = new System.Drawing.Size(73, 21);
+            this.txtClassHour.TabIndex = 7;
+            // 
+            // txtCredit
+            // 
+            this.txtCredit.Location = new System.Drawing.Point(513, 35);
+            this.txtCredit.Name = "txtCredit";
+            this.txtCredit.Size = new System.Drawing.Size(100, 21);
+            this.txtCredit.TabIndex = 8;
+            // 
             // FrmAddCourse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -554,11 +440,8 @@
         private CCWin.SkinControl.SkinLabel skinLabel12;
         private CCWin.SkinControl.SkinComboBox cbbCategory;
         private CCWin.SkinControl.SkinLabel skinLabel11;
-        private CCWin.SkinControl.SkinTextBox txtCredit;
         private CCWin.SkinControl.SkinLabel skinLabel9;
-        private CCWin.SkinControl.SkinTextBox txtClassHour;
         private CCWin.SkinControl.SkinLabel skinLabel8;
-        private CCWin.SkinControl.SkinTextBox txtCourseName;
         private CCWin.SkinControl.SkinCheckBox ckbAutoClear;
         private System.Windows.Forms.DataGridView dgvCourseList;
         private System.Windows.Forms.Label lblCount;
@@ -568,5 +451,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Credit;
         private System.Windows.Forms.DataGridViewTextBoxColumn CourseContent;
         private System.Windows.Forms.DataGridViewTextBoxColumn CategoryName;
+        private MyControls.TxtBoxExt txtClassHour;
+        private MyControls.TxtBoxExt txtCourseName;
+        private MyControls.TxtBoxExt txtCredit;
     }
 }

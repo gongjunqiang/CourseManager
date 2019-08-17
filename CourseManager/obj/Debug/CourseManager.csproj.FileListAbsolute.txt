@@ -66,3 +66,5 @@ E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第
 E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManager\obj\Debug\CourseManager.csproj.CopyComplete
 E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManager\obj\Debug\CourseManager.exe
 E:\C#录播课程视频\C#\直播\课后作业\【龚均强】_1208754526_【第02与03次作业】\CourseManager\CourseManager\obj\Debug\CourseManager.pdb
+C:\Users\GJQ\Desktop\CourseManager\CourseManager\bin\Debug\MyControls.dll
+C:\Users\GJQ\Desktop\CourseManager\CourseManager\bin\Debug\MyControls.pdb
